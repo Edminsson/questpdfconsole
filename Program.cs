@@ -50,3 +50,6 @@ var document = Document.Create(container =>
 
 document.GeneratePdf("sample-pdfa2b.pdf");
 Console.WriteLine($"Created {Path.GetFullPath("sample-pdfa2b.pdf")}");
+
+FamilyReport.Create().GeneratePdf("family-report-pdfa2b.pdf");
+Console.WriteLine($"Created {Path.GetFullPath("family-report-pdfa2b.pdf")}");
